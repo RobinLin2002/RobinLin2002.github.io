@@ -15,7 +15,7 @@ I am very fortunate to be advised by [Prof. Qu](https://liangqiong.github.io/) f
 
 # 📝 Publications & Preeprints
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/FedVLMBench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [FedVLMBench: Benchmarking Federated Fine-Tuning of Vision-Language Models](https://www.arxiv.org/pdf/2506.09638)
