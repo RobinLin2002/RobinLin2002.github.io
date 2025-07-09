@@ -1,21 +1,21 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I received my B.S. from The Chinese University of Hong Kong, Shenzhen, and I am currently pursuing a master's degree in the Department of Mathematics at The University of Hong Kong, with a major in Artificial Intelligence. My research interests include computer vision, image restoration, and interpretability in AI.
+I received my B.S. from The Chinese University of Hong Kong, Shenzhen. I am currently pursuing a master's degree in the Department of Mathematics at The University of Hong Kong, with a major in Artificial Intelligence. **I am currently seeking PhD positions for 2026 Fall.**
+
+My research interests include computer vision, image restoration, and interpretability in AI.
+
 I am very fortunate to be advised by [Prof. Qu](https://liangqiong.github.io/) from [School of Computing and Data Science](https://www.cds.hku.hk/), The University of Hong Kong.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-A data-driven personal website
 ======
-I received my B.S. from The Chinese University of Hong Kong, Shenzhen, and I am currently pursuing a master's degree in the Department of Mathematics at The University of Hong Kong, with a major in Artificial Intelligence. My research interests include computer vision, image restoration, and interpretability in AI.
-I am very fortunate to be advised by [Prof. Qu](https://liangqiong.github.io/) from [School of Computing and Data Science](https://www.cds.hku.hk/), The University of Hong Kong.
+
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
