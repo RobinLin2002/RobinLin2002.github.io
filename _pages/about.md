@@ -13,5 +13,11 @@ My research interests include computer vision, image restoration, and interpreta
 
 I am very fortunate to be advised by [Prof. Qu](https://liangqiong.github.io/) from [School of Computing and Data Science](https://www.cds.hku.hk/), The University of Hong Kong.
 
-You can find my published and preprint papers here:
+# 📝 Publications & Preeprints
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[FedVLMBench: Benchmarking Federated Fine-Tuning of Vision-Language Models](https://www.arxiv.org/pdf/2506.09638)
+
+Weiying Zheng, **Ziyue Lin**, Pengxin Guo, Yuyin Zhou, Feifei Wang, Liangqiong Qu
