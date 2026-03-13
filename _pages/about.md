@@ -39,7 +39,7 @@ I am very fortunate to be advised by [Prof.Liangqiong Qu](https://liangqiong.git
 
 # 📝 Publications & Pre-prints
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR2026</div><img src='images/DRDD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR2026</div><img src='images/second_page.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Decoupled Residual Denoising Diffusion Models for Unified and Data Efficient Image-to-Image Translation](Paper is coming soon.)
