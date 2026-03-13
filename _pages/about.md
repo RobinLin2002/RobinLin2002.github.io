@@ -30,7 +30,7 @@ I am very fortunate to be advised by [Prof.Liangqiong Qu](https://liangqiong.git
 我非常荣幸能获得香港大学计算与数据科学学院屈靓琼教授的指导，我目前还在商汤科技有限公司实习，负责研发多模态low-level大模型。
 # 🔥 News
 - *2025.04*: &nbsp;🎉🎉 Two papers are submitted to ECCV-2026.
-- *2026.02*: &nbsp;🎉🎉 DRDD(FIrst Author) was accepted by CVPR-2025.
+- *2026.02*: &nbsp;🎉🎉 DRDD(First Author) was accepted by CVPR-2025.
 - *2025.12*: &nbsp;🎉🎉 Started working at Sensetime Technology.
 - *2025.11*: &nbsp;🎉🎉 ARRA was accpeted by AAAI-2025(**oral**).
 - *2025.11*: &nbsp;🎉🎉 One collaborated paper was accpeted by IEEE Transactions on Geoscience and Remote Sensing.
@@ -39,7 +39,19 @@ I am very fortunate to be advised by [Prof.Liangqiong Qu](https://liangqiong.git
 
 # 📝 Publications & Pre-prints
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to Neurips 2025</div><img src='images/FedVLMBench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR2026</div><img src='images/DRDD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Decoupled Residual Denoising Diffusion Models for Unified and Data Efficient Image-to-Image Translation](Paper is coming soon.)
+
+**Ziyue Lin**, Jiahe Hou, Hongyu Xia, Xinrui Xie, Feifei Wang, Yuyin Zhou, Wei Wang, Jiawei Liu†, Liangqiong Qu†
+[**Project**]() <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- DRDD decouples the diffusion process into two independent stages: stochastic noise diffusion for domain alignment and deterministic residual diffusion for semantic mapping, enhancing both unified translation quality and data efficiency.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ECCV 2026</div><img src='images/FedVLMBench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [FedVLMBench: Benchmarking Federated Fine-Tuning of Vision-Language Models](https://www.arxiv.org/pdf/2506.09638)
@@ -52,7 +64,7 @@ Weiying Zheng, **Ziyue Lin**, Pengxin Guo, Yuyin Zhou, Feifei Wang, Liangqiong Q
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Rejected by ICCV 2025</div><img src='images/ARRA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026(Oral)</div><img src='images/ARRA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -67,7 +79,7 @@ Xing Xie, Jiawei Liu, **Ziyue Lin**, Huijie Fan, Zhi Han, Yandong Tang, Liangqio
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted by NAACL 2025</div><img src='images/MLLM-Bench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025</div><img src='images/MLLM-Bench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
