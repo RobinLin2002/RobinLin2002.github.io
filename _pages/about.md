@@ -21,19 +21,21 @@ I received my B.S. from The Chinese University of Hong Kong, Shenzhen. I am curr
 
 My research interests include computer vision, image restoration, and data-centric AI. This is my personal CV: [Ziyue Lin's Curriculum Vitae](../assets/林子越_个人中英文简历.pdf)
 
-I am very fortunate to be advised by [Prof.Liangqiong Qu](https://liangqiong.github.io/) from [School of Computing and Data Science](https://www.cds.hku.hk/), The University of Hong Kong. I am also currently collaborating with the EPIC Lab at Shanghai Jiao Tong University on research projects, and I am grateful for the guidance from Researcher [Shaobo Wang](https://gszfwsb.github.io/) and [Prof.Linfeng Zhang](http://www.zhanglinfeng.tech/).
+I am very fortunate to be advised by [Prof.Liangqiong Qu](https://liangqiong.github.io/) from [School of Computing and Data Science](https://www.cds.hku.hk/), The University of Hong Kong. I am also currently working in Sensetime Technology.
 
 我本科毕业于香港中文大学（深圳），目前在香港大学数学系攻读人工智能方向的硕士学位，并计划申请2026年秋季入学的博士项目。
 
-我的研究兴趣包括计算机视觉、图像修复以及数据驱动的人工智能。这是我的个人简历：[简历](../assets/林子越_个人中英文简历.pdf)
+我的研究兴趣和经历包括1. 多模态大模型的理解与生成 2.基于扩散模型的图像修复。这是我的个人简历：[简历](../assets/林子越_个人中英文简历.pdf)
 
-我非常荣幸能获得香港大学计算与数据科学学院屈靓琼教授的指导，我目前还与上海交通大学EPIC实验室合作开展科研项目，感谢王少博学长和张林峰教授的指导。
+我非常荣幸能获得香港大学计算与数据科学学院屈靓琼教授的指导，我目前还在商汤科技有限公司实习，负责研发多模态low-level大模型。
 # 🔥 News
-- *2025.04*: &nbsp;🎉🎉 FedVLMBench was submitted to Neurips-2025.
-- *2025.04*: &nbsp;🎉🎉 Started working on diffusion and image restoration.
-- *2025.03*: &nbsp;🎉🎉 One paper was submitted to ICCV-2025.
-- *2024.10*: &nbsp;🎉🎉 MLLM-Bench was accepted by NAACL-2025!
-- *2024.09*: &nbsp;🎉🎉 Started learning at HKU.
+- *2025.04*: &nbsp;🎉🎉 Two papers are submitted to ECCV-2026.
+- *2026.02*: &nbsp;🎉🎉 DRDD(FIrst Author) was accepted by CVPR-2025.
+- *2025.12*: &nbsp;🎉🎉 Started working at Sensetime Technology.
+- *2025.11*: &nbsp;🎉🎉 ARRA was accpeted by AAAI-2025(**oral**).
+- *2025.11*: &nbsp;🎉🎉 One collaborated paper was accpeted by IEEE Transactions on Geoscience and Remote Sensing.
+- *2024.10*: &nbsp;🎉🎉 MLLM-Bench was accepted by NAACL-2025.
+- *2024.09*: &nbsp;🎉🎉 Started research in HKU-HealthAI Lab.
 
 # 📝 Publications & Pre-prints
 
