@@ -44,7 +44,7 @@ I am very fortunate to be advised by [Prof.Liangqiong Qu](https://liangqiong.git
 
 [Decoupled Residual Denoising Diffusion Models for Unified and Data Efficient Image-to-Image Translation](Paper is coming soon.)
 
-**Ziyue Lin**, Jiahe Hou, Hongyu Xia, Xinrui Xie, Feifei Wang, Yuyin Zhou, Wei Wang, Jiawei Liu†, Liangqiong Qu†
+**<span style="color: #2E86C1;">Ziyue Lin</span>**, Jiahe Hou, Hongyu Xia, Xinrui Xie, Feifei Wang, Yuyin Zhou, Wei Wang, Jiawei Liu†, Liangqiong Qu†
 [**Project**]() <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - DRDD decouples the diffusion process into two independent stages: stochastic noise diffusion for domain alignment and deterministic residual diffusion for semantic mapping, enhancing both unified translation quality and data efficiency.
 </div>
