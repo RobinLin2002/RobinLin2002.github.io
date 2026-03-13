@@ -72,7 +72,7 @@ Weiying Zheng, **Ziyue Lin**, Pengxin Guo, Yuyin Zhou, Feifei Wang, Liangqiong Q
 
 Xing Xie, Jiawei Liu, **Ziyue Lin**, Huijie Fan, Zhi Han, Yandong Tang, Liangqiong Qu
 
-[**Project**](https://arxiv.org/abs/2503.07334) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://arxiv.org/html/2503.07334v1) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - We present Autoregressive Representation Alignment (ARRA), a new training framework that unlocks global-coherent text-to-image generation in autoregressive LLMs without architectural changes.
 </div>
 </div>
