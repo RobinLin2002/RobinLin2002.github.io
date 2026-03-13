@@ -30,7 +30,7 @@ I am very fortunate to be advised by [Prof.Liangqiong Qu](https://liangqiong.git
 我非常荣幸能获得香港大学计算与数据科学学院屈靓琼教授的指导，我目前还在商汤科技有限公司实习，负责研发多模态low-level大模型。
 # 🔥 News
 - *2025.04*: &nbsp;🎉🎉 Two papers are submitted to ECCV-2026.
-- *2026.02*: &nbsp;🎉🎉 DRDD(First Author) was accepted by CVPR-2025.
+- *2026.02*: &nbsp;🎉🎉 DRDD(First Author) was accepted by CVPR-2026.
 - *2025.12*: &nbsp;🎉🎉 Started working at Sensetime Technology.
 - *2025.11*: &nbsp;🎉🎉 ARRA was accpeted by AAAI-2025(**oral**).
 - *2025.11*: &nbsp;🎉🎉 One collaborated paper was accpeted by IEEE Transactions on Geoscience and Remote Sensing.
