@@ -17,15 +17,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I received my B.S. from The Chinese University of Hong Kong, Shenzhen. I am currently pursuing a master's degree in the Department of Mathematics at The University of Hong Kong, with a major in Artificial Intelligence. **I am currently seeking PhD positions for 2026 Fall.**
+I received my B.S. from The Chinese University of Hong Kong, Shenzhen. I am currently pursuing a master's degree in the Department of Mathematics at The University of Hong Kong, with a major in Artificial Intelligence. 
 
-My research interests include computer vision, image restoration, and data-centric AI. This is my personal CV: [Ziyue Lin's Curriculum Vitae](../assets/林子越_个人中英文简历.pdf)
+My research interests include computer vision, image restoration, and data-centric AI. 
+
 
 I am very fortunate to be advised by [Prof.Liangqiong Qu](https://liangqiong.github.io/) from [School of Computing and Data Science](https://www.cds.hku.hk/), The University of Hong Kong. I am also currently working in Sensetime Technology.
 
-我本科毕业于香港中文大学（深圳），目前在香港大学数学系攻读人工智能方向的硕士学位，并计划申请2026年秋季入学的博士项目。
+我本科毕业于香港中文大学（深圳），目前在香港大学数学系攻读人工智能方向的硕士学位。
 
-我的研究兴趣和经历包括1. 多模态大模型的理解与生成 2.基于扩散模型的图像修复。这是我的个人简历：[简历](../assets/林子越_个人中英文简历.pdf)
+我的研究兴趣和经历包括1. 多模态大模型的理解与生成 2.基于扩散模型的图像修复。
 
 我非常荣幸能获得香港大学计算与数据科学学院屈靓琼教授的指导，我目前还在商汤科技有限公司实习，负责研发多模态low-level大模型。
 # 🔥 News
