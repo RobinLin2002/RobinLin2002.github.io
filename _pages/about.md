@@ -32,11 +32,11 @@ I am very fortunate to be advised by [Prof.Liangqiong Qu](https://liangqiong.git
 # 🔥 News
 - *2026.02*: &nbsp;🎉🎉 Two papers are submitted to ECCV-2026.
 - *2026.02*: &nbsp;🎉🎉 DRDD(First Author) was accepted by CVPR-2026.
-- *2025.12*: &nbsp;🎉🎉 Started working at Sensetime Technology.
+- *2025.12*: &nbsp;💼💼 Started working at Sensetime Technology.
 - *2025.11*: &nbsp;🎉🎉 ARRA was accpeted by AAAI-2025(**oral**).
 - *2025.11*: &nbsp;🎉🎉 One collaborated paper was accpeted by IEEE Transactions on Geoscience and Remote Sensing.
 - *2024.10*: &nbsp;🎉🎉 MLLM-Bench was accepted by NAACL-2025.
-- *2024.09*: &nbsp;🎉🎉 Started research in HKU-HealthAI Lab.
+- *2024.09*: &nbsp;🎓🎓 Started research in HKU-HealthAI Lab.
 
 # 📝 Publications & Pre-prints
 
@@ -99,6 +99,6 @@ Wentao Ge∗, Shunian Chen∗, Guiming Hardy Chen*, Nuo Chen, Junying Chen, Zhih
 
 
 # 📖 Educations
-- *2024.09 - 2065.06* (expected)*, pursuing master in The University of Hong Kong, major in Artificial Intelligence 
+- *2024.09 - 2026.06* (expected)*, pursuing master in The University of Hong Kong, major in Artificial Intelligence 
 - *2020.09 - 2024.06*, achieved Bachelor of Science in The Chinese University of Hong Kong, Shenzhen, major in Data Science and big data technology
 
