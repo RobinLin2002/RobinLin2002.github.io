@@ -60,7 +60,7 @@ I previously worked as an intern at SenseTime Research, where I focused on multi
 
 [FedVLMBench: Benchmarking Federated Fine-Tuning of Vision-Language Models](https://www.arxiv.org/pdf/2506.09638)
 
-Weiying Zheng, **Ziyue Lin**, Pengxin Guo, Yuyin Zhou, Feifei Wang, Liangqiong Qu
+Weiying Zheng, **<span style="color: #2E86C1;">Ziyue Lin</span>**, Pengxin Guo, Yuyin Zhou, Feifei Wang, Liangqiong Qu
 
 [**Project**](https://github.com/Arise-zwy/FedVLMBench) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Our work provides essential tools, datasets, and empirical guidance for the research community, offering a standardized platform to advance privacy-preserving, federated training of multimodal foundation models.
@@ -74,7 +74,7 @@ Weiying Zheng, **Ziyue Lin**, Pengxin Guo, Yuyin Zhou, Feifei Wang, Liangqiong Q
 
 [Unleashing the Potential of Large Language Models for Text-to-Image Generation through Autoregressive Representation Alignment]([https://example.com](https://arxiv.org/pdf/2503.07334))
 
-Xing Xie, Jiawei Liu, **Ziyue Lin**, Huijie Fan, Zhi Han, Yandong Tang, Liangqiong Qu
+Xing Xie, Jiawei Liu, **<span style="color: #2E86C1;">Ziyue Lin</span>**, Huijie Fan, Zhi Han, Yandong Tang, Liangqiong Qu
 
 [**Project**](https://arxiv.org/html/2503.07334v1) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - We present Autoregressive Representation Alignment (ARRA), a new training framework that unlocks global-coherent text-to-image generation in autoregressive LLMs without architectural changes.
@@ -90,7 +90,7 @@ Xing Xie, Jiawei Liu, **Ziyue Lin**, Huijie Fan, Zhi Han, Yandong Tang, Liangqio
 
 [MLLM-Bench, Evaluating Multi-modal LLMs using GPT-4V](https://aclanthology.org/2025.naacl-long.256.pdf)
 
-Wentao Ge∗, Shunian Chen∗, Guiming Hardy Chen*, Nuo Chen, Junying Chen, Zhihong Chen†, Wenya Xie, Shuo Yan, Chenghao Zhu, **Ziyue Lin**, Dingjie Song, Xidong Wang, Anningzhe Gao, Zhiyi Zhang, Jianquan Li, Xiang Wan, Benyou Wang†
+Wentao Ge∗, Shunian Chen∗, Guiming Hardy Chen*, Nuo Chen, Junying Chen, Zhihong Chen†, Wenya Xie, Shuo Yan, Chenghao Zhu, **<span style="color: #2E86C1;">Ziyue Lin</span>**, Dingjie Song, Xidong Wang, Anningzhe Gao, Zhiyi Zhang, Jianquan Li, Xiang Wan, Benyou Wang†
     
 
 
