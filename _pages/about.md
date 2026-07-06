@@ -49,7 +49,7 @@ I previously worked as an intern at SenseTime Research, where I focused on multi
 [Decoupled Residual Denoising Diffusion Models for Unified and Data Efficient Image-to-Image Translation](https://arxiv.org/abs/2606.01048)
 
 **<span style="color: #2E86C1;">Ziyue Lin</span>**, Jiahe Hou, Hongyu Xia, Xinrui Xie, Feifei Wang, Yuyin Zhou, Wei Wang, Jiawei Liu†, Liangqiong Qu†
-[**Project**]() <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/HKU-HealthAI/DRDD) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - DRDD decouples the diffusion process into two independent stages: stochastic noise diffusion for domain alignment and deterministic residual diffusion for semantic mapping, enhancing both unified translation quality and data efficiency.
 </div>
 </div>
@@ -76,12 +76,10 @@ Weiying Zheng, **<span style="color: #2E86C1;">Ziyue Lin</span>**, Pengxin Guo, 
 
 Xing Xie, Jiawei Liu, **<span style="color: #2E86C1;">Ziyue Lin</span>**, Huijie Fan, Zhi Han, Yandong Tang, Liangqiong Qu
 
-[**Project**](https://arxiv.org/html/2503.07334v1) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/HKU-HealthAI/ARRA) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - We present Autoregressive Representation Alignment (ARRA), a new training framework that unlocks global-coherent text-to-image generation in autoregressive LLMs without architectural changes.
 </div>
 </div>
-
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025</div><img src='images/MLLM-Bench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
