@@ -17,33 +17,36 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I received my B.S. from The Chinese University of Hong Kong, Shenzhen. I am currently pursuing a master's degree in the Department of Mathematics at The University of Hong Kong, with a major in Artificial Intelligence. 
+I received my B.S. degree from The Chinese University of Hong Kong, Shenzhen, and my master's degree in Artificial Intelligence from the Department of Mathematics at The University of Hong Kong.
 
-My research interests include computer vision, image restoration, and data-centric AI. 
+Starting from September 2026, I will pursue my Ph.D. at The Hong Kong Polytechnic University under the supervision of [Prof. Xingyi Yang](https://adamdad.github.io/) in the Department of Data Science and Artificial Intelligence.
+
+My research interests include multimodal large language models, diffusion models, and generative AI. I am particularly interested in building reliable and data-efficient multimodal systems for visual understanding, generation, and interaction with the physical world.
+
+I previously worked as an intern at SenseTime Research, where I focused on multimodal low-level vision models.
 
 
-I am very fortunate to be advised by [Prof.Liangqiong Qu](https://liangqiong.github.io/) from [School of Computing and Data Science](https://www.cds.hku.hk/), The University of Hong Kong. I am also currently working in Sensetime Technology.
+我本科毕业于香港中文大学（深圳），并于香港大学数学系获得人工智能方向的硕士学位。
 
-我本科毕业于香港中文大学（深圳），目前在香港大学数学系攻读人工智能方向的硕士学位。
+自 2026 年 9 月起，我将赴香港理工大学攻读博士学位，师从香港理工大学数据科学与人工智能学系的 [阳行意教授](https://adamdad.github.io/)。
 
-我的研究兴趣和经历包括1. 多模态大模型的理解与生成 2.基于扩散模型的图像修复。
+我的研究兴趣包括多模态大语言模型、扩散模型以及生成式人工智能。我尤其关注如何构建可靠且数据高效的多模态系统，用于视觉理解、内容生成以及与物理世界的交互。
 
-我非常荣幸能获得香港大学计算与数据科学学院屈靓琼教授的指导，我目前还在商汤科技有限公司实习，负责研发多模态low-level大模型。
+此前，我曾在商汤科技研究院实习，主要从事多模态低层视觉模型相关研究。
+
 # 🔥 News
-- *2026.02*: &nbsp;🎉🎉 Two papers are submitted to ECCV-2026.
 - *2026.02*: &nbsp;🎉🎉 DRDD(First Author) was accepted by CVPR-2026.
-- *2025.12*: &nbsp;💼💼 Started working at Sensetime Technology.
+- *2025.12*: &nbsp;💼💼 Started working Uni-Lens at Sensetime Technology.
 - *2025.11*: &nbsp;🎉🎉 ARRA was accpeted by AAAI-2025(**oral**).
 - *2025.11*: &nbsp;🎉🎉 One collaborated paper was accpeted by IEEE Transactions on Geoscience and Remote Sensing.
 - *2024.10*: &nbsp;🎉🎉 MLLM-Bench was accepted by NAACL-2025.
-- *2024.09*: &nbsp;🎓🎓 Started research in HKU-HealthAI Lab.
 
 # 📝 Publications & Pre-prints
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR2026</div><img src='images/second_page.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Decoupled Residual Denoising Diffusion Models for Unified and Data Efficient Image-to-Image Translation](Paper is coming soon.)
+[Decoupled Residual Denoising Diffusion Models for Unified and Data Efficient Image-to-Image Translation](https://arxiv.org/abs/2606.01048)
 
 **<span style="color: #2E86C1;">Ziyue Lin</span>**, Jiahe Hou, Hongyu Xia, Xinrui Xie, Feifei Wang, Yuyin Zhou, Wei Wang, Jiawei Liu†, Liangqiong Qu†
 [**Project**]() <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
