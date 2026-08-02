@@ -153,6 +153,14 @@ a { color: var(--accent); }
 .timeline__item:first-child { padding-top: 0; }
 .timeline time, .experience-grid time { color: var(--accent); font-size: .72rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
 .timeline p { margin: 0; color: #454c57; line-height: 1.6; }
+.research-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.research-card { position: relative; min-height: 190px; padding: 1.5rem; overflow: hidden; border: 1px solid var(--line); border-radius: 1.1rem; background: #fff; transition: transform .25s ease, box-shadow .25s ease; }
+.research-card::after { content: ""; position: absolute; right: -45px; bottom: -55px; width: 150px; height: 150px; border-radius: 50%; background: var(--glimpse); opacity: .12; }
+.research-card:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(31,39,54,.08); }
+.research-card > span { color: var(--glimpse); font-size: .68rem; font-weight: 700; letter-spacing: .08em; }
+.research-card h3 { max-width: 240px; margin: 2.4rem 0 .6rem; font: 700 1rem/1.35 "Manrope", sans-serif; }
+.research-card p { max-width: 300px; margin: 0; color: var(--muted); font-size: .78rem; line-height: 1.55; }
+.research-card--blue { --glimpse: #2457e6; } .research-card--violet { --glimpse: #7c4dde; } .research-card--green { --glimpse: #16866d; } .research-card--orange { --glimpse: #d76a2d; }
 .publication { display: grid; grid-template-columns: 250px 1fr; gap: 2rem; padding: 0 0 3.5rem; }
 .publication__visual { position: relative; align-self: start; overflow: hidden; border: 1px solid var(--line); border-radius: 1rem; background: #fff; }
 .publication__visual img { display: block; width: 100%; aspect-ratio: 16/10; object-fit: cover; transition: transform .4s ease; }
@@ -167,6 +175,14 @@ a { color: var(--accent); }
 .experience-grid article { padding: 1.4rem; border: 1px solid var(--line); border-radius: 1rem; background: rgba(255,255,255,.55); }
 .experience-grid h3 { margin: .8rem 0 .4rem; font: 700 .98rem/1.35 "Manrope", sans-serif; }
 .experience-grid p { margin: 0; color: var(--muted); font-size: .8rem; line-height: 1.5; }
+.visitor-card { display: grid; grid-template-columns: 1fr 260px; min-height: 150px; margin: 2rem 0 4rem; overflow: hidden; border: 1px solid var(--line); border-radius: 1.1rem; background: #fff; box-shadow: 0 16px 45px rgba(31,39,54,.06); }
+.visitor-card__copy { align-self: center; padding: 1.5rem 1.75rem; }
+.visitor-card__eyebrow { margin: 0 0 .5rem !important; color: var(--accent); font-size: .66rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.visitor-card__location { margin: 0 0 .45rem !important; font: 700 1.05rem "Manrope", sans-serif; }
+.visitor-card__meta { margin: 0 !important; color: var(--muted); font-size: .7rem; }
+.visitor-card__meta span { color: var(--ink); font-weight: 700; }
+.visitor-card__map { min-height: 150px; display: grid; place-items: center; background: #eef1f3; color: #87909a; font-size: .7rem; }
+.visitor-card__map iframe { width: 100%; height: 100%; min-height: 150px; border: 0; filter: grayscale(.55) contrast(.92); }
 .site-footer { display: flex; justify-content: space-between; gap: 1rem; padding: 2rem 0 3rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .72rem; }
 .site-footer p { margin: 0; }
 @media (max-width: 800px) {
@@ -177,6 +193,7 @@ a { color: var(--accent); }
   .section-label { position: static; }
   .publication { grid-template-columns: 1fr; gap: 1.25rem; }
   .publication__visual { max-width: 440px; }
+  .visitor-card { grid-template-columns: 1fr 220px; }
 }
 @media (max-width: 520px) {
   body { font-size: 16px; }
@@ -184,5 +201,8 @@ a { color: var(--accent); }
   .hero h1 span { display: block; margin-top: .8rem; font-size: .35em; vertical-align: 0; }
   .timeline__item { grid-template-columns: 1fr; gap: .35rem; }
   .experience-grid { grid-template-columns: 1fr; }
+  .research-grid { grid-template-columns: 1fr; }
+  .visitor-card { grid-template-columns: 1fr; }
+  .visitor-card__map { min-height: 170px; }
   .site-footer { flex-direction: column; }
 }

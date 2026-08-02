@@ -3,6 +3,8 @@ main:
     url: "/#about"
   - title: "News"
     url: "/#news"
+  - title: "Research"
+    url: "/#research"
   - title: "Publications"
     url: "/#publications"
   - title: "Experience"
