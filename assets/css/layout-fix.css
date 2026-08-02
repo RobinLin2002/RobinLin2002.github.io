@@ -1,0 +1,51 @@
+/* Loaded after the theme stylesheet: this page has no sidebar. */
+#main > article.page,
+#main .page {
+  box-sizing: border-box !important;
+  clear: both !important;
+  float: none !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#main > article.page > .page__inner-wrap,
+#main > article.page .page__content {
+  box-sizing: border-box !important;
+  float: none !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* All sections share one full-width academic reading column. */
+.page__content > .content-section,
+.page__content > .content-section.about-section {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
+
+.page__content > .content-section > .section-label,
+.page__content > .content-section > .section-body {
+  box-sizing: border-box !important;
+  position: static !important;
+  float: none !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.page__content > .content-section:not(.about-section) > .section-label {
+  margin-bottom: 1.5rem !important;
+}
+
+@media (max-width: 800px) {
+  #main > article.page,
+  #main > article.page .page__content { width: 100% !important; }
+}
