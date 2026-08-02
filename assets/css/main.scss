@@ -249,3 +249,38 @@ a { color: var(--accent); }
 @media (max-width: 470px) {
   .hero__aside { grid-template-columns: 1fr; }
 }
+
+/* The original theme reserves a sidebar column even when the sidebar is disabled. */
+#main > .page {
+  float: none !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+#main > .page > .page__inner-wrap,
+#main > .page .page__content {
+  float: none !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Keep every academic section aligned to the same full-width reading column. */
+.page__content > .content-section:not(.about-section) {
+  display: block;
+  width: 100%;
+  padding: 3.6rem 0;
+}
+.page__content > .content-section:not(.about-section) > .section-label {
+  position: static;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+.page__content > .content-section:not(.about-section) > .section-body {
+  width: 100%;
+  max-width: none;
+}
