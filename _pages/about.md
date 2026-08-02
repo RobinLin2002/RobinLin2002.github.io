@@ -29,7 +29,7 @@ redirect_from:
       <a href="https://orcid.org/0009-0001-4237-2764"><span>iD</span>ORCID</a>
       <a href="/assets/%E6%9E%97%E5%AD%90%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E4%B8%AD%E8%8B%B1%E6%96%87%E7%AE%80%E5%8E%86.pdf"><span>CV</span>Curriculum Vitae</a>
     </nav>
-  </div>
+  </aside>
 </section>
 
 <section class="content-section about-section" id="about"><div class="section-label"><h2>About</h2></div><div class="section-body about-copy">
