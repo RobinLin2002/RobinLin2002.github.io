@@ -135,3 +135,32 @@ html[data-theme="dark"] .button { border-color: #3b4350 !important; background: 
 html[data-theme="dark"] .site-control { border-color: #3d4654; background: #1b2027; color: #dce2ea; }
 html[data-theme="dark"] .site-control:hover { border-color: #718096; background: #28303a; color: #fff; }
 html[data-theme="dark"] .hero__portrait { filter: saturate(.9) brightness(.9); }
+
+/* Personal page: the same academic restraint with a warmer editorial tone. */
+.personal-page { padding: 5.25rem 0 1rem; }
+.personal-hero { max-width: 810px; padding-bottom: 4rem; }
+.personal-hero__eyebrow { margin: 0 0 1rem; color: #a83232; font-size: .78rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.personal-hero h1 { margin: 0 0 1.25rem; color: #171a1f; font: 700 clamp(3.3rem, 7.5vw, 6rem)/.95 "Manrope", sans-serif; letter-spacing: -.065em; }
+.personal-hero__intro { max-width: 760px; margin: 0; color: #4e5662; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.2rem, 2.1vw, 1.6rem); line-height: 1.75; }
+.personal-hero__switch { display: inline-flex; margin-top: 1.8rem; padding-bottom: .15rem; border-bottom: 1px solid currentColor; color: #2850a0; font-size: .9rem; font-weight: 700; text-decoration: none; }
+.personal-categories { padding: 3rem 0 5rem; border-top: 1px solid #dfe2e6; }
+.personal-categories__heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.35rem; }
+.personal-categories__heading h2 { margin: 0; color: #171a1f; font: 700 1.75rem Georgia, "Times New Roman", serif; }
+.personal-categories__heading p { margin: 0; color: #7a838f; font-size: .82rem; }
+.personal-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .9rem; }
+.personal-card { min-height: 185px; padding: 1.3rem; border: 1px solid #dde1e6; border-radius: .9rem; background: rgba(255,255,255,.62); transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease; }
+.personal-card:hover { border-color: #b8c3d4; box-shadow: 0 16px 34px rgba(30,40,55,.09); transform: translateY(-3px); }
+.personal-card__number { color: #a83232; font-size: .7rem; font-weight: 700; letter-spacing: .1em; }
+.personal-card h3 { margin: 2.1rem 0 .55rem; color: #20242a; font: 700 1.16rem/1.25 "Manrope", sans-serif; }
+.personal-card p { margin: 0; color: #66707c; font-size: .92rem; line-height: 1.65; }
+html[data-theme="dark"] .personal-hero h1,
+html[data-theme="dark"] .personal-categories__heading h2,
+html[data-theme="dark"] .personal-card h3 { color: #f1f3f5; }
+html[data-theme="dark"] .personal-hero__intro,
+html[data-theme="dark"] .personal-card p,
+html[data-theme="dark"] .personal-categories__heading p { color: #aeb6c2; }
+html[data-theme="dark"] .personal-categories { border-color: #303640; }
+html[data-theme="dark"] .personal-card { border-color: #343b46; background: #1b1f24; }
+html[data-theme="dark"] .personal-card:hover { border-color: #536176; box-shadow: 0 16px 34px rgba(0,0,0,.25); }
+@media (max-width: 760px) { .personal-page { padding-top: 3.25rem; } .personal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .personal-grid { grid-template-columns: 1fr; } .personal-categories__heading { display: block; } .personal-categories__heading p { margin-top: .5rem; } }

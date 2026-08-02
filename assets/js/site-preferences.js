@@ -24,7 +24,7 @@
       publicationDescriptions: ["将扩散过程解耦为随机域对齐与确定性语义映射，实现统一且数据高效的图像翻译。", "为视觉语言模型的隐私保护联邦微调提供标准化评测基准与工具集。", "通过自回归表征对齐，在不改变架构的前提下提升文本生成图像的全局一致性。", "以成对比较方式评测 21 个主流多模态大语言模型，揭示其多样化能力。"],
       publicationLinks: ["论文", "项目"],
       experience: ["数据科学与人工智能博士", "人工智能硕士", "数据科学与大数据技术理学学士", "研究实习生 · 多模态低层视觉"],
-      nav: ["关于", "新闻", "研究", "论文", "经历", "简历"],
+      nav: ["关于", "新闻", "研究", "论文", "经历", "简历", "个人"],
       footer: "次访问",
       backTop: "返回顶部 ↑"
     }
@@ -78,6 +78,38 @@
     setMany(".experience-grid article p", t.experience);
     document.querySelectorAll(".visible-links > .masthead__menu-item:not(.masthead__menu-home-item) > a").forEach(function (node, i) { if (t.nav[i]) node.textContent = t.nav[i]; });
     setText(".site-footer > a", t.backTop);
+
+    var personal = {
+      "personal-kicker": "离开书桌以后",
+      "personal-title": "好奇<br>与热爱",
+      "personal-intro": "我喜欢小说，中国诗歌，历史，竞技体育，电子游戏，桌面游戏，电影，旅行，流行音乐，和一切能带来美好与爱的事物。",
+      "personal-switch": "← 学术主页",
+      "personal-heading": "反复回到的事物",
+      "personal-subheading": "关于故事、游戏与惊喜的持续索引。",
+      "personal-fiction-title": "小说",
+      "personal-fiction-copy": "虚构的世界，锋利的句子，以及书页中安静而鲜活的人生。",
+      "personal-poetry-title": "中国诗歌",
+      "personal-poetry-copy": "古典诗句会随着季节与心境，生长出新的意义。",
+      "personal-history-title": "历史",
+      "personal-history-copy": "漫长的人类记录：观念、地域、偶然性与记忆。",
+      "personal-sports-title": "竞技体育",
+      "personal-sports-copy": "胶着比赛的张力、训练的技艺，以及共同相信的时刻。",
+      "personal-videogames-title": "电子游戏",
+      "personal-videogames-copy": "可以探索的系统、可以栖居的故事，以及为玩乐而建构的世界。",
+      "personal-boardgames-title": "桌面游戏",
+      "personal-boardgames-copy": "一张桌子、几条规则，与朋友一起度过更好的夜晚。",
+      "personal-film-title": "电影与旅行",
+      "personal-film-copy": "萦绕不去的影像、令人惊喜的城市，以及抵达陌生之处的快乐。",
+      "personal-music-title": "流行音乐",
+      "personal-music-copy": "通勤、深夜、庆祝，以及一切间隙里的歌。",
+      "personal-love-title": "美好与爱",
+      "personal-love-copy": "提醒自己，为惊奇、善意与快乐留出位置。"
+    };
+    document.querySelectorAll("[data-personal-page] [data-i18n]").forEach(function (node) {
+      var value = personal[node.dataset.i18n];
+      if (value == null) return;
+      if (node.dataset.i18n === "personal-title") node.innerHTML = value; else node.textContent = value;
+    });
   }
 
   function setTheme(theme) {
