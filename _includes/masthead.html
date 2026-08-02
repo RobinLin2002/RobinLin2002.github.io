@@ -8,15 +8,13 @@
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li class="masthead__menu-item masthead__menu-item--controls">
-            <div class="site-controls" aria-label="Site preferences">
-              <button type="button" class="site-control" id="language-toggle" aria-label="Switch to Chinese">中文</button>
-              <button type="button" class="site-control" id="theme-toggle" aria-label="Switch to dark mode">☾</button>
-            </div>
-          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <div class="site-controls" aria-label="Site preferences">
+        <button type="button" class="site-control" id="language-toggle" aria-label="Switch to Chinese">中文</button>
+        <button type="button" class="site-control" id="theme-toggle" aria-label="Switch to dark mode">☾</button>
+      </div>
     </div>
   </div>
 </div>

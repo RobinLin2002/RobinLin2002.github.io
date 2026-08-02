@@ -97,7 +97,9 @@
 }
 
 /* Language and appearance controls. */
-.site-controls { display: flex; align-items: center; gap: .4rem; margin-left: .7rem; }
+.masthead__menu { display: flex; align-items: center; gap: .8rem; }
+.masthead__menu > nav { min-width: 0; flex: 1 1 auto; }
+.site-controls { display: flex; flex: 0 0 auto; align-items: center; gap: .4rem; }
 .site-control { min-width: 2.2rem; height: 2.2rem; padding: 0 .55rem; border: 1px solid #d5dbe5; border-radius: .55rem; background: transparent; color: #4d5561; cursor: pointer; font: 700 .72rem "DM Sans", sans-serif; transition: background .2s ease, color .2s ease, border-color .2s ease; }
 .site-control:hover { border-color: #8d99ac; background: #f0f3f8; color: #171a1f; }
 
@@ -135,6 +137,8 @@ html[data-theme="dark"] .button { border-color: #3b4350 !important; background: 
 html[data-theme="dark"] .site-control { border-color: #3d4654; background: #1b2027; color: #dce2ea; }
 html[data-theme="dark"] .site-control:hover { border-color: #718096; background: #28303a; color: #fff; }
 html[data-theme="dark"] .hero__portrait { filter: saturate(.9) brightness(.9); }
+
+@media (max-width: 560px) { .site-control { min-width: 2rem; height: 2rem; padding: 0 .42rem; } }
 
 /* Personal page: the same academic restraint with a warmer editorial tone. */
 .personal-page { padding: 5.25rem 0 1rem; }
