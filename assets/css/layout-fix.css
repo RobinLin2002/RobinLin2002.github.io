@@ -70,3 +70,27 @@
   .hero { grid-template-columns: 1fr !important; }
   .hero__portrait { width: min(220px, 72vw) !important; height: auto !important; }
 }
+
+/* Larger reading type for every section below the introduction. */
+.content-section .section-label h2 { font-size: 1.62rem !important; }
+.content-section .section-label > span { font-size: .78rem !important; }
+.about-section .about-copy p { font-size: 1.08rem !important; line-height: 1.9 !important; }
+.timeline time,
+.experience-grid time { font-size: .84rem !important; }
+.timeline p { font-size: 1.04rem !important; line-height: 1.7 !important; }
+.research-card h3 { font-size: 1.18rem !important; }
+.research-card p { font-size: .96rem !important; line-height: 1.65 !important; }
+.publication__copy h3 { font-size: 1.28rem !important; line-height: 1.45 !important; }
+.publication__copy p { font-size: 1rem !important; line-height: 1.7 !important; }
+.publication__copy .authors { font-size: .92rem !important; }
+.publication__links a { font-size: .8rem !important; }
+.experience-grid h3 { font-size: 1.12rem !important; }
+.experience-grid p { font-size: .96rem !important; line-height: 1.6 !important; }
+.site-footer { font-size: .84rem !important; }
+
+@media (max-width: 520px) {
+  .about-section .about-copy p { font-size: 1rem !important; }
+  .publication__copy h3 { font-size: 1.14rem !important; }
+  .publication__copy p,
+  .timeline p { font-size: .98rem !important; }
+}
