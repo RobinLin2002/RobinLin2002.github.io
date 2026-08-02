@@ -1,105 +1,58 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
+excerpt: "Ziyue Lin — multimodal learning, generative AI, and computer vision."
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<section class="hero" id="home">
+  <div class="hero__portrait-wrap">
+    <img class="hero__portrait" src="/images/Lin%20Ziyue.jpeg" alt="Portrait of Ziyue Lin">
+    <span class="hero__status">Incoming Ph.D. · PolyU</span>
+  </div>
+  <div class="hero__copy">
+    <p class="eyebrow">Hello, I’m</p>
+    <h1>Ziyue Lin <span>林子越</span></h1>
+    <p class="hero__role">Incoming Ph.D. student in Data Science &amp; Artificial Intelligence at The Hong Kong Polytechnic University.</p>
+    <p class="hero__intro">I build reliable, data-efficient multimodal systems that understand, generate, and interact with the visual world.</p>
+    <div class="interest-list" aria-label="Research interests"><span>Multimodal LLMs</span><span>Generative AI</span><span>Diffusion Models</span><span>Computer Vision</span></div>
+    <div class="hero__links">
+      <a class="button button--primary" href="mailto:ziyue_lin@connect.hku.hk">Email</a>
+      <a class="button" href="https://scholar.google.com/citations?user=SfW5o5IAAAAJ&amp;hl=en">Google Scholar</a>
+      <a class="button" href="https://github.com/RobinLin2002">GitHub</a>
+      <a class="button" href="/assets/%E6%9E%97%E5%AD%90%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E4%B8%AD%E8%8B%B1%E6%96%87%E7%AE%80%E5%8E%86.pdf">CV</a>
+    </div>
+  </div>
+</section>
 
-<span class='anchor' id='about-me'></span>
+<section class="content-section" id="about"><div class="section-label"><span>01</span><h2>About</h2></div><div class="section-body about-copy">
+<p>I received my B.S. degree from The Chinese University of Hong Kong, Shenzhen, and my master’s degree in Artificial Intelligence from the Department of Mathematics at The University of Hong Kong.</p>
+<p>Starting in September 2026, I will pursue my Ph.D. in the Department of Data Science and Artificial Intelligence at The Hong Kong Polytechnic University, supervised by <a href="https://adamdad.github.io/">Prof. Xingyi Yang</a>.</p>
+<p>My research spans multimodal large language models, diffusion models, and generative AI. I am especially interested in building reliable and data-efficient multimodal systems for visual understanding, generation, and interaction with the physical world. Previously, I worked at SenseTime Research on multimodal low-level vision models.</p>
+</div></section>
 
-I received my B.S. degree from The Chinese University of Hong Kong, Shenzhen, and my master's degree in Artificial Intelligence from the Department of Mathematics at The University of Hong Kong.
+<section class="content-section" id="news"><div class="section-label"><span>02</span><h2>News</h2></div><div class="section-body timeline">
+<div class="timeline__item"><time>Jun 2026</time><p><strong>DRDD</strong>, my first-author paper, was accepted to CVPR 2026.</p></div>
+<div class="timeline__item"><time>Dec 2025</time><p>Started working on Uni-Lens at SenseTime Research.</p></div>
+<div class="timeline__item"><time>Nov 2025</time><p><strong>ARRA</strong> was accepted to AAAI 2026 as an oral presentation.</p></div>
+<div class="timeline__item"><time>Oct 2024</time><p><strong>MLLM-Bench</strong> was accepted to NAACL 2025.</p></div>
+</div></section>
 
-Starting from September 2026, I will pursue my Ph.D. at The Hong Kong Polytechnic University under the supervision of [Prof. Xingyi Yang](https://adamdad.github.io/) in the Department of Data Science and Artificial Intelligence.
+<section class="content-section" id="publications"><div class="section-label"><span>03</span><h2>Selected Publications</h2></div><div class="section-body publications">
+<article class="publication"><div class="publication__visual"><span class="publication__venue">CVPR 2026</span><img src="/images/second_page.png" alt="DRDD project preview"></div><div class="publication__copy"><h3>Decoupled Residual Denoising Diffusion Models for Unified and Data-Efficient Image-to-Image Translation</h3><p class="authors"><strong>Ziyue Lin</strong>, Jiahe Hou, Hongyu Xia, Xinrui Xie, Feifei Wang, Yuyin Zhou, Wei Wang, Jiawei Liu, Liangqiong Qu</p><p>Decouples diffusion into stochastic domain alignment and deterministic semantic mapping for unified, data-efficient image translation.</p><div class="publication__links"><a href="https://arxiv.org/abs/2606.01048">Paper</a><a href="https://github.com/HKU-HealthAI/DRDD">Project</a></div></div></article>
+<article class="publication"><div class="publication__visual"><span class="publication__venue">Preprint</span><img src="/images/FedVLMBench.png" alt="FedVLMBench project preview"></div><div class="publication__copy"><h3>FedVLMBench: Benchmarking Federated Fine-Tuning of Vision-Language Models</h3><p class="authors">Weiying Zheng, <strong>Ziyue Lin</strong>, Pengxin Guo, Yuyin Zhou, Feifei Wang, Liangqiong Qu</p><p>A standardized benchmark and toolkit for privacy-preserving federated fine-tuning of vision-language models.</p><div class="publication__links"><a href="https://arxiv.org/abs/2506.09638">Paper</a><a href="https://github.com/Arise-zwy/FedVLMBench">Project</a></div></div></article>
+<article class="publication"><div class="publication__visual"><span class="publication__venue">AAAI 2026 · Oral</span><img src="/images/ARRA.png" alt="ARRA project preview"></div><div class="publication__copy"><h3>Unleashing the Potential of Large Language Models for Text-to-Image Generation through Autoregressive Representation Alignment</h3><p class="authors">Xing Xie, Jiawei Liu, <strong>Ziyue Lin</strong>, Huijie Fan, Zhi Han, Yandong Tang, Liangqiong Qu</p><p>Aligns autoregressive representations to improve globally coherent text-to-image generation without architectural changes.</p><div class="publication__links"><a href="https://arxiv.org/abs/2503.07334">Paper</a><a href="https://github.com/HKU-HealthAI/ARRA">Project</a></div></div></article>
+<article class="publication"><div class="publication__visual"><span class="publication__venue">NAACL 2025</span><img src="/images/MLLM-Bench.png" alt="MLLM-Bench project preview"></div><div class="publication__copy"><h3>MLLM-Bench: Evaluating Multi-modal LLMs using GPT-4V</h3><p class="authors">Wentao Ge, Shunian Chen, Guiming Hardy Chen, et al., <strong>Ziyue Lin</strong>, et al.</p><p>A pairwise-comparison benchmark revealing the diverse capabilities of 21 widely used multimodal large language models.</p><div class="publication__links"><a href="https://aclanthology.org/2025.naacl-long.256/">Paper</a><a href="https://github.com/FreedomIntelligence/MLLM-Bench">Project</a></div></div></article>
+</div></section>
 
-My research interests include multimodal large language models, diffusion models, and generative AI. I am particularly interested in building reliable and data-efficient multimodal systems for visual understanding, generation, and interaction with the physical world.
+<section class="content-section" id="experience"><div class="section-label"><span>04</span><h2>Experience</h2></div><div class="section-body experience-grid">
+<article><time>2026 —</time><h3>The Hong Kong Polytechnic University</h3><p>Ph.D. in Data Science and Artificial Intelligence</p></article>
+<article><time>2024 — 2026</time><h3>The University of Hong Kong</h3><p>M.Sc. in Artificial Intelligence</p></article>
+<article><time>2020 — 2024</time><h3>CUHK-Shenzhen</h3><p>B.Sc. in Data Science and Big Data Technology</p></article>
+<article><time>2025 — 2026</time><h3>SenseTime Research</h3><p>Research intern · Multimodal low-level vision</p></article>
+</div></section>
 
-I previously worked as an intern at SenseTime Research, where I focused on multimodal low-level vision models.
-
-
-我本科毕业于香港中文大学（深圳），并于香港大学数学系获得人工智能方向的硕士学位。
-
-自 2026 年 9 月起，我将赴香港理工大学攻读博士学位，指导教授为香港理工大学数据科学与人工智能学系的 [阳行意教授](https://adamdad.github.io/)。
-
-我的研究兴趣包括多模态大语言模型、扩散模型以及生成式人工智能。我尤其关注如何构建可靠且数据高效的多模态系统，用于视觉理解、内容生成以及与物理世界的交互。
-
-此前，我曾在商汤科技研究院实习，主要从事多模态低层视觉模型相关研究。
-
-# 🔥 News
-- *2026.02*: &nbsp;🎉🎉 DRDD(First Author) was accepted by CVPR-2026.
-- *2025.12*: &nbsp;💼💼 Started working Uni-Lens at Sensetime Technology.
-- *2025.11*: &nbsp;🎉🎉 ARRA was accpeted by AAAI-2025(**oral**).
-- *2025.11*: &nbsp;🎉🎉 One collaborated paper was accpeted by IEEE Transactions on Geoscience and Remote Sensing.
-- *2024.10*: &nbsp;🎉🎉 MLLM-Bench was accepted by NAACL-2025.
-
-# 📝 Publications & Pre-prints
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR2026</div><img src='images/second_page.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Decoupled Residual Denoising Diffusion Models for Unified and Data Efficient Image-to-Image Translation](https://arxiv.org/abs/2606.01048)
-
-**<span style="color: #2E86C1;">Ziyue Lin</span>**, Jiahe Hou, Hongyu Xia, Xinrui Xie, Feifei Wang, Yuyin Zhou, Wei Wang, Jiawei Liu†, Liangqiong Qu†
-[**Project**](https://github.com/HKU-HealthAI/DRDD) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- DRDD decouples the diffusion process into two independent stages: stochastic noise diffusion for domain alignment and deterministic residual diffusion for semantic mapping, enhancing both unified translation quality and data efficiency.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ECCV 2026</div><img src='images/FedVLMBench.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[FedVLMBench: Benchmarking Federated Fine-Tuning of Vision-Language Models](https://www.arxiv.org/pdf/2506.09638)
-
-Weiying Zheng, **<span style="color: #2E86C1;">Ziyue Lin</span>**, Pengxin Guo, Yuyin Zhou, Feifei Wang, Liangqiong Qu
-
-[**Project**](https://github.com/Arise-zwy/FedVLMBench) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Our work provides essential tools, datasets, and empirical guidance for the research community, offering a standardized platform to advance privacy-preserving, federated training of multimodal foundation models.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026(Oral)</div><img src='images/ARRA.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-
-[Unleashing the Potential of Large Language Models for Text-to-Image Generation through Autoregressive Representation Alignment]([https://example.com](https://arxiv.org/pdf/2503.07334))
-
-Xing Xie, Jiawei Liu, **<span style="color: #2E86C1;">Ziyue Lin</span>**, Huijie Fan, Zhi Han, Yandong Tang, Liangqiong Qu
-
-[**Project**](https://github.com/HKU-HealthAI/ARRA) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- We present Autoregressive Representation Alignment (ARRA), a new training framework that unlocks global-coherent text-to-image generation in autoregressive LLMs without architectural changes.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025</div><img src='images/MLLM-Bench.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-
-
-[MLLM-Bench, Evaluating Multi-modal LLMs using GPT-4V](https://aclanthology.org/2025.naacl-long.256.pdf)
-
-Wentao Ge∗, Shunian Chen∗, Guiming Hardy Chen*, Nuo Chen, Junying Chen, Zhihong Chen†, Wenya Xie, Shuo Yan, Chenghao Zhu, **<span style="color: #2E86C1;">Ziyue Lin</span>**, Dingjie Song, Xidong Wang, Anningzhe Gao, Zhiyi Zhang, Jianquan Li, Xiang Wan, Benyou Wang†
-    
-
-
-[**Project**](https://github.com/FreedomIntelligence/MLLM-Bench) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- We benchmark 21 popular MLLMs in a pairwise-comparison fashion, showing diverse performance across models.
-</div>
-</div>
-
-
-
-# 📖 Educations
-- *2024.09 - 2026.06* (expected)*, pursuing master in The University of Hong Kong, major in Artificial Intelligence 
-- *2020.09 - 2024.06*, achieved Bachelor of Science in The Chinese University of Hong Kong, Shenzhen, major in Data Science and big data technology
-
+<footer class="site-footer"><p>© 2026 Ziyue Lin. Built with curiosity in Hong Kong.</p><a href="#home">Back to top ↑</a></footer>

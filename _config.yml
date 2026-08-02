@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Ziyue Lin's homepage"
-description              : "This is Ziyue Lin's homepage. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Ziyue Lin — AI Researcher"
+description              : "Research in multimodal learning, generative AI, and computer vision."
+repository               : "RobinLin2002/robinlin2002.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ziyue LIN (林子越)"
   avatar           : "images/Lin Ziyue.jpeg"
-  bio              : "HKU master"
+  bio              : "Incoming Ph.D. student at PolyU"
   location         : "Hong Kong, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=SfW5o5IAAAAJ&hl=zh-CN"
-  email            : "ziyue_lin@connect.hku.hk.com"
+  email            : "ziyue_lin@connect.hku.hk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
