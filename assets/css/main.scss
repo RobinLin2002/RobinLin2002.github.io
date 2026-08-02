@@ -206,3 +206,46 @@ a { color: var(--accent); }
   .visitor-card__map { min-height: 170px; }
   .site-footer { flex-direction: column; }
 }
+
+/* Reference-matched academic introduction */
+.hero { grid-template-columns: 288px minmax(430px, 1fr) 260px; gap: clamp(2.5rem, 4vw, 4.2rem); min-height: auto; align-items: start; padding: 5.6rem 0 4.8rem; }
+.hero__portrait-wrap { padding-top: .25rem; }
+.hero__portrait { width: 288px; height: 360px; aspect-ratio: auto; border-radius: 0; box-shadow: none; object-fit: cover; object-position: center top; }
+.hero__copy { padding-top: .2rem; }
+.hero h1 { margin: 0 0 2.15rem; color: #141414; font: 700 clamp(3.9rem, 5.5vw, 5.25rem)/.9 "Manrope", sans-serif; letter-spacing: -.065em; }
+.hero__role { margin: 0 0 .4rem !important; color: #202020; font-size: 1.55rem; font-weight: 400; line-height: 1.4; }
+.hero__affiliation { margin: 0 0 1.7rem !important; color: #2850a0; font-size: 1.27rem; line-height: 1.55; }
+.hero__highlight { margin: 0 0 1.45rem !important; color: #395b9b; font-size: .95rem; font-weight: 700; }
+.hero__intro { max-width: 520px; margin: 0 !important; color: #69717d; font-size: .9rem; line-height: 1.9; }
+.hero__aside { padding-top: .6rem; }
+.hero__aside h2 { margin: 0 0 .65rem; font: 700 1.18rem "Manrope", sans-serif; letter-spacing: -.03em; }
+.hero__aside ul { margin: 0 0 2rem; padding: 0; list-style: none; }
+.hero__aside li { margin: 0 0 .43rem; color: #252525; font-size: .94rem; line-height: 1.4; }
+.hero__links { display: flex; flex-direction: column; align-items: flex-start; gap: .42rem; }
+.hero__links a { display: inline-flex; align-items: center; gap: .55rem; color: #2850a0; font-size: .83rem; font-weight: 500; }
+.hero__links a:hover { color: #17346e; text-decoration: underline; }
+.hero__links span { display: inline-grid; place-items: center; flex: 0 0 22px; width: 22px; height: 22px; border: 1px solid #c8d3e8; border-radius: 50%; color: #2850a0; font-size: .48rem; font-weight: 600; }
+.about-section { display: block; padding: 2rem 0 4.5rem; }
+.about-section .section-label { position: static; border-bottom: 1px solid #d9d9d9; }
+.about-section .section-label h2 { position: relative; display: inline-block; margin: 0; padding: 0 0 .8rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.8rem; font-weight: 700; letter-spacing: 0; }
+.about-section .section-label h2::after { content: ""; position: absolute; left: 0; bottom: -1px; width: 86px; height: 1px; background: #a83232; }
+.about-section .section-body { max-width: none; padding-top: 1.3rem; }
+.about-section .about-copy p { max-width: none; margin: 0 0 1.15rem; color: #282828; font-size: .89rem; line-height: 1.8; }
+.about-section .about-copy a { color: #a73535; text-decoration: underline; text-underline-offset: 2px; }
+@media (max-width: 1040px) {
+  .hero { grid-template-columns: 240px 1fr; }
+  .hero__portrait { width: 240px; height: 300px; }
+  .hero__aside { grid-column: 2; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; padding-top: 0; }
+  .hero__aside ul { margin-bottom: 0; }
+}
+@media (max-width: 720px) {
+  .hero { grid-template-columns: 1fr; gap: 2rem; padding: 3rem 0; }
+  .hero__portrait-wrap { max-width: none; }
+  .hero__portrait { width: min(288px, 82vw); height: auto; aspect-ratio: 4/5; }
+  .hero__copy, .hero__aside { grid-column: 1; }
+  .hero__aside { display: grid; grid-template-columns: 1fr 1fr; }
+  .hero h1 { margin-bottom: 1.5rem; font-size: clamp(3.2rem, 16vw, 4.6rem); }
+}
+@media (max-width: 470px) {
+  .hero__aside { grid-template-columns: 1fr; }
+}

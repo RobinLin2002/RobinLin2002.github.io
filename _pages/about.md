@@ -11,27 +11,31 @@ redirect_from:
 <section class="hero" id="home">
   <div class="hero__portrait-wrap">
     <img class="hero__portrait" src="/images/Lin%20Ziyue.jpeg" alt="Portrait of Ziyue Lin">
-    <span class="hero__status">Incoming Ph.D. · PolyU</span>
   </div>
   <div class="hero__copy">
-    <p class="eyebrow">Hello, I’m</p>
-    <h1>Ziyue Lin <span>林子越</span></h1>
-    <p class="hero__role">Incoming Ph.D. student in Data Science &amp; Artificial Intelligence at The Hong Kong Polytechnic University.</p>
-    <p class="hero__intro">I build reliable, data-efficient multimodal systems that understand, generate, and interact with the visual world.</p>
-    <div class="interest-list" aria-label="Research interests"><span>Multimodal LLMs</span><span>Generative AI</span><span>Diffusion Models</span><span>Computer Vision</span></div>
-    <div class="hero__links">
-      <a class="button button--primary" href="mailto:ziyue_lin@connect.hku.hk">Email</a>
-      <a class="button" href="https://scholar.google.com/citations?user=SfW5o5IAAAAJ&amp;hl=en">Google Scholar</a>
-      <a class="button" href="https://github.com/RobinLin2002">GitHub</a>
-      <a class="button" href="/assets/%E6%9E%97%E5%AD%90%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E4%B8%AD%E8%8B%B1%E6%96%87%E7%AE%80%E5%8E%86.pdf">CV</a>
-    </div>
+    <h1>Ziyue Lin</h1>
+    <p class="hero__role">Incoming Ph.D. Student</p>
+    <p class="hero__affiliation">Department of Data Science and Artificial Intelligence<br>The Hong Kong Polytechnic University</p>
+    <p class="hero__highlight">M.Sc. in Artificial Intelligence, HKU</p>
+    <p class="hero__intro">I work on reliable and data-efficient multimodal systems for visual understanding, generation, and interaction with the physical world.</p>
+  </div>
+  <aside class="hero__aside">
+    <h2>Research Interests</h2>
+    <ul><li>Multimodal LLMs</li><li>Generative AI</li><li>Diffusion Models</li><li>Computer Vision</li><li>Efficient Learning</li></ul>
+    <nav class="hero__links" aria-label="Academic and social profiles">
+      <a href="mailto:ziyue_lin@connect.hku.hk"><span>✉</span>Email</a>
+      <a href="https://scholar.google.com/citations?user=SfW5o5IAAAAJ&amp;hl=en"><span>G</span>Google Scholar</a>
+      <a href="https://github.com/RobinLin2002"><span>GH</span>GitHub</a>
+      <a href="https://orcid.org/0009-0001-4237-2764"><span>iD</span>ORCID</a>
+      <a href="/assets/%E6%9E%97%E5%AD%90%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E4%B8%AD%E8%8B%B1%E6%96%87%E7%AE%80%E5%8E%86.pdf"><span>CV</span>Curriculum Vitae</a>
+    </nav>
   </div>
 </section>
 
-<section class="content-section" id="about"><div class="section-label"><span>01</span><h2>About</h2></div><div class="section-body about-copy">
-<p>I received my B.S. degree from The Chinese University of Hong Kong, Shenzhen, and my master’s degree in Artificial Intelligence from the Department of Mathematics at The University of Hong Kong.</p>
-<p>Starting in September 2026, I will pursue my Ph.D. in the Department of Data Science and Artificial Intelligence at The Hong Kong Polytechnic University, supervised by <a href="https://adamdad.github.io/">Prof. Xingyi Yang</a>.</p>
-<p>My research spans multimodal large language models, diffusion models, and generative AI. I am especially interested in building reliable and data-efficient multimodal systems for visual understanding, generation, and interaction with the physical world. Previously, I worked at SenseTime Research on multimodal low-level vision models.</p>
+<section class="content-section about-section" id="about"><div class="section-label"><h2>About</h2></div><div class="section-body about-copy">
+<p>Hi, my name is Ziyue Lin. Starting in September 2026, I will pursue my Ph.D. in the <a href="https://www.polyu.edu.hk/dsai/">Department of Data Science and Artificial Intelligence (DSAI)</a> at The Hong Kong Polytechnic University, supervised by <a href="https://adamdad.github.io/"><strong>Prof. Xingyi Yang</strong></a>.</p>
+<p>I received my master’s degree in Artificial Intelligence from the Department of Mathematics at The University of Hong Kong and my B.S. degree from The Chinese University of Hong Kong, Shenzhen. I previously worked at SenseTime Research, focusing on multimodal low-level vision models.</p>
+<p>My research spans <strong>Multimodal Large Language Models</strong>, <strong>Generative AI</strong>, and <strong>Computer Vision</strong>, with a particular interest in building reliable and data-efficient systems for understanding, generating, and interacting with the visual world.</p>
 </div></section>
 
 <section class="content-section" id="research"><div class="section-label"><span>02</span><h2>Research Glimpses</h2></div><div class="section-body research-grid">
@@ -62,13 +66,4 @@ redirect_from:
 <article><time>2025 — 2026</time><h3>SenseTime Research</h3><p>Research intern · Multimodal low-level vision</p></article>
 </div></section>
 
-<aside class="visitor-card" aria-label="Visitor information">
-  <div class="visitor-card__copy">
-    <p class="visitor-card__eyebrow">Welcome, visitor</p>
-    <p class="visitor-card__location" id="visitor-location">Locating your approximate region…</p>
-    <p class="visitor-card__meta"><span id="visitor-count">—</span> visits · Approximate IP-based location</p>
-  </div>
-  <div class="visitor-card__map" id="visitor-map" aria-label="Approximate visitor location map"><span>Map unavailable</span></div>
-</aside>
-
-<footer class="site-footer"><p>© 2026 Ziyue Lin. Built with curiosity in Hong Kong.</p><a href="#home">Back to top ↑</a></footer>
+<footer class="site-footer"><p>© 2026 Ziyue Lin · <span id="visitor-count">—</span> visits</p><a href="#home">Back to top ↑</a></footer>
