@@ -16,7 +16,7 @@ redirect_from:
     <h1>Ziyue Lin</h1>
     <p class="hero__role">Incoming Ph.D. Student</p>
     <p class="hero__affiliation">Department of Data Science and Artificial Intelligence<br>The Hong Kong Polytechnic University</p>
-    <p class="hero__highlight">M.Sc. in Artificial Intelligence, HKU</p>
+    <p class="hero__highlight">Year 1 PhD Student at PolyU DSAI</p>
     <p class="hero__intro">I work on reliable and data-efficient multimodal systems for visual understanding, generation, and interaction with the physical world.</p>
   </div>
   <aside class="hero__aside">

@@ -49,3 +49,24 @@
   #main > article.page,
   #main > article.page .page__content { width: 100% !important; }
 }
+
+/* Refine the first viewport while keeping the academic three-column layout. */
+.hero { grid-template-columns: 250px minmax(430px, 1fr) 270px !important; }
+.hero__portrait { width: 250px !important; height: 313px !important; }
+.hero__role { font-size: 1.68rem !important; }
+.hero__affiliation { font-size: 1.38rem !important; }
+.hero__highlight { font-size: 1.13rem !important; }
+.hero__intro { font-size: 1.06rem !important; }
+.hero__aside h2 { font-size: 1.42rem !important; }
+.hero__aside ul { font-size: 1.18rem !important; }
+.hero__links a { font-size: 1.07rem !important; }
+
+@media (max-width: 1040px) {
+  .hero { grid-template-columns: 220px minmax(0, 1fr) !important; }
+  .hero__portrait { width: 220px !important; height: 275px !important; }
+}
+
+@media (max-width: 720px) {
+  .hero { grid-template-columns: 1fr !important; }
+  .hero__portrait { width: min(220px, 72vw) !important; height: auto !important; }
+}
