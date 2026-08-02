@@ -37,7 +37,7 @@ redirect_from:
 <p>My research spans <strong>Multimodal Large Language Models</strong>, <strong>Generative AI</strong>, and <strong>Computer Vision</strong>, with a particular interest in building reliable and data-efficient systems for understanding, generating, and interacting with the visual world.</p>
 </div></section>
 
-<section class="content-section" id="research"><div class="section-label"><span>02</span><h2>Research Glimpses</h2></div><div class="section-body research-grid">
+<section class="content-section about-section" id="research"><div class="section-label"><h2>Research</h2></div><div class="section-body research-grid">
 <article class="research-card research-card--blue"><span>01</span><h3>Multimodal Intelligence</h3><p>Building models that connect language with rich visual signals.</p></article>
 <article class="research-card research-card--violet"><span>02</span><h3>Generative AI</h3><p>Creating controllable and coherent visual content from human intent.</p></article>
 <article class="research-card research-card--green"><span>03</span><h3>Efficient Learning</h3><p>Learning reliable representations with less data and computation.</p></article>

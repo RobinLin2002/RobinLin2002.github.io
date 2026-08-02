@@ -110,6 +110,44 @@
       if (value == null) return;
       if (node.dataset.i18n === "personal-title") node.innerHTML = value; else node.textContent = value;
     });
+
+    var personalOverrides = {
+      "personal-kicker": "离开书桌以后",
+      "personal-title": "好奇<br>与热爱",
+      "personal-intro": "我喜欢小说，中国诗歌，历史，竞技体育，电子游戏，桌面游戏，电影，旅行，流行音乐，和一切能带来美好与爱的事物。",
+      "personal-intro-copy": "我喜欢小说，中国诗歌，历史，竞技体育，电子游戏，桌面游戏，电影，旅行，流行音乐，和一切能带来美好与爱的事物。",
+      "personal-switch": "← 学术主页",
+      "personal-heading": "个人",
+      "personal-interests-heading": "兴趣",
+      "personal-subheading": "关于故事、游戏与惊喜的持续索引。",
+      "personal-fiction-title": "小说",
+      "personal-fiction-copy": "虚构的世界，锋利的句子，以及书页中安静而鲜活的人生。",
+      "personal-poetry-title": "中国诗歌",
+      "personal-poetry-copy": "古典诗句会随着季节与心境，生长出新的意义。",
+      "personal-history-title": "历史",
+      "personal-history-copy": "漫长的人类记录：观念、地域、偶然性与记忆。",
+      "personal-sports-title": "竞技体育",
+      "personal-sports-copy": "胶着比赛的张力、训练的技艺，以及共同相信的时刻。",
+      "personal-games-title": "游戏",
+      "personal-games-copy": "电子游戏与桌面游戏：可以探索的系统、可以栖居的故事，以及和朋友一起度过的夜晚。",
+      "personal-film-title": "电影",
+      "personal-film-copy": "萦绕不去的影像、表演与故事，在银幕暗下之后依然停留。",
+      "personal-travel-title": "旅行",
+      "personal-travel-copy": "新的城市、漫长的步行，以及抵达陌生之处的快乐。",
+      "personal-music-title": "流行音乐",
+      "personal-music-copy": "通勤、深夜、庆祝，以及一切间隙里的歌。",
+      "personal-love-title": "美好与爱",
+      "personal-love-copy": "提醒自己，为惊奇、善意与快乐留出位置。",
+      "personal-blogs-heading": "博客",
+      "personal-blogs-status": "即将开始",
+      "personal-blogs-title": "笔记、阅读与旅途",
+      "personal-blogs-copy": "在这里写下关于书、游戏、电影、旅行，以及值得记住的小事。"
+    };
+    document.querySelectorAll("[data-personal-page] [data-i18n]").forEach(function (node) {
+      var value = personalOverrides[node.dataset.i18n];
+      if (value == null) return;
+      if (node.dataset.i18n === "personal-title") node.innerHTML = value; else node.textContent = value;
+    });
   }
 
   function setTheme(theme) {
