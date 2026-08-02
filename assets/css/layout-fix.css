@@ -140,6 +140,11 @@ html[data-theme="dark"] .hero__portrait { filter: saturate(.9) brightness(.9); }
 
 @media (max-width: 560px) { .site-control { min-width: 2rem; height: 2rem; padding: 0 .42rem; } }
 
+/* Do not retain a mouse-click focus ring on the Personal-page jump link. */
+.greedy-nav .visible-links a:focus { outline: none !important; box-shadow: none !important; }
+.greedy-nav .visible-links a:focus:not(:focus-visible) { border-color: transparent !important; background: transparent !important; }
+.greedy-nav .visible-links a:focus-visible { outline: 2px solid #2850a0 !important; outline-offset: 3px; border-radius: 3px; }
+
 /* Personal page: the same academic restraint with a warmer editorial tone. */
 .personal-page { padding: 5.25rem 0 1rem; }
 .personal-hero { max-width: 810px; padding-bottom: 4rem; }
