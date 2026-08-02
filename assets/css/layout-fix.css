@@ -95,3 +95,43 @@
   .publication__copy p,
   .timeline p { font-size: .98rem !important; }
 }
+
+/* Language and appearance controls. */
+.site-controls { display: flex; align-items: center; gap: .4rem; margin-left: .7rem; }
+.site-control { min-width: 2.2rem; height: 2.2rem; padding: 0 .55rem; border: 1px solid #d5dbe5; border-radius: .55rem; background: transparent; color: #4d5561; cursor: pointer; font: 700 .72rem "DM Sans", sans-serif; transition: background .2s ease, color .2s ease, border-color .2s ease; }
+.site-control:hover { border-color: #8d99ac; background: #f0f3f8; color: #171a1f; }
+
+html[data-theme="dark"] { color-scheme: dark; }
+html[data-theme="dark"] body { background: #121416 !important; color: #e8ebef !important; }
+html[data-theme="dark"] .masthead { border-color: #2c3138 !important; background: rgba(18,20,22,.92) !important; }
+html[data-theme="dark"] .greedy-nav { background: transparent !important; }
+html[data-theme="dark"] .greedy-nav a,
+html[data-theme="dark"] .masthead__menu-home-item a,
+html[data-theme="dark"] .hero h1,
+html[data-theme="dark"] .hero__role,
+html[data-theme="dark"] .hero__aside h2,
+html[data-theme="dark"] .hero__aside li,
+html[data-theme="dark"] .section-label h2,
+html[data-theme="dark"] .about-section .about-copy p,
+html[data-theme="dark"] .timeline p,
+html[data-theme="dark"] .publication__copy h3,
+html[data-theme="dark"] .experience-grid h3 { color: #f1f3f5 !important; }
+html[data-theme="dark"] .masthead__menu-home-item span,
+html[data-theme="dark"] .hero__intro,
+html[data-theme="dark"] .about-copy p,
+html[data-theme="dark"] .publication__copy p,
+html[data-theme="dark"] .experience-grid p,
+html[data-theme="dark"] .research-card p,
+html[data-theme="dark"] .site-footer { color: #aeb6c2 !important; }
+html[data-theme="dark"] .content-section,
+html[data-theme="dark"] .about-section .section-label,
+html[data-theme="dark"] .timeline__item,
+html[data-theme="dark"] .site-footer { border-color: #303640 !important; }
+html[data-theme="dark"] .research-card,
+html[data-theme="dark"] .experience-grid article,
+html[data-theme="dark"] .publication__visual { border-color: #343b46 !important; background: #1b1f24 !important; }
+html[data-theme="dark"] .interest-list span,
+html[data-theme="dark"] .button { border-color: #3b4350 !important; background: #1c2127 !important; color: #e8ebef !important; }
+html[data-theme="dark"] .site-control { border-color: #3d4654; background: #1b2027; color: #dce2ea; }
+html[data-theme="dark"] .site-control:hover { border-color: #718096; background: #28303a; color: #fff; }
+html[data-theme="dark"] .hero__portrait { filter: saturate(.9) brightness(.9); }
