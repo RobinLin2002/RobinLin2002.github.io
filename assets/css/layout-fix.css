@@ -51,6 +51,7 @@
 }
 
 /* Refine the first viewport while keeping the academic three-column layout. */
+#main { max-width: 1120px !important; }
 .hero { grid-template-columns: 250px minmax(430px, 1fr) 270px !important; }
 .hero__portrait { width: 250px !important; height: 313px !important; }
 .hero__role { font-size: 1.68rem !important; }
