@@ -15,7 +15,7 @@
       contact: ["邮箱", "谷歌学术", "GitHub", "ORCID", "个人简历"],
       headings: ["关于我", "研究速览", "新闻", "代表性论文", "教育与经历"],
       about: [
-        "你好，我是林子越。自 2026 年 9 月起，我将在<a href=\"https://www.polyu.edu.hk/dsai/\">香港理工大学数据科学与人工智能系（DSAI）</a>攻读博士学位，导师为<a href=\"https://adamdad.github.io/\"><strong>杨星意教授</strong></a>。",
+        "你好，我是林子越。自 2026 年 9 月起，我将在<a href=\"https://www.polyu.edu.hk/dsai/\">香港理工大学数据科学与人工智能系（DSAI）</a>攻读博士学位，导师为<a href=\"https://adamdad.github.io/\"><strong>阳行意教授</strong></a>。",
         "我在香港大学数学系获得人工智能硕士学位，并在香港中文大学（深圳）获得理学学士学位。我曾在商汤科技研究院从事多模态低层视觉模型研究。",
         "我的研究涵盖<strong>多模态大语言模型</strong>、<strong>生成式人工智能</strong>和<strong>计算机视觉</strong>，尤其关注构建可靠且数据高效的系统，以理解、生成并与视觉世界交互。"
       ],

@@ -59,10 +59,10 @@ redirect_from:
 </div></section>
 
 <section class="content-section" id="experience"><div class="section-label"><span>05</span><h2>Experience</h2></div><div class="section-body experience-grid">
-<article><time>2026 —</time><h3>The Hong Kong Polytechnic University</h3><p>Ph.D. in Data Science and Artificial Intelligence</p></article>
-<article><time>2024 — 2026</time><h3>The University of Hong Kong</h3><p>M.Sc. in Artificial Intelligence</p></article>
-<article><time>2020 — 2024</time><h3>CUHK-Shenzhen</h3><p>B.Sc. in Data Science and Big Data Technology</p></article>
-<article><time>2025 — 2026</time><h3>SenseTime Research</h3><p>Research intern · Multimodal low-level vision</p></article>
+<article><time>2026.09 —</time><h3>The Hong Kong Polytechnic University</h3><p>Ph.D. in Data Science and Artificial Intelligence</p></article>
+<article><time>2024.09 — 2025.12</time><h3>The University of Hong Kong</h3><p>M.Sc. in Artificial Intelligence</p></article>
+<article><time>2020.09 — 2024.06</time><h3>CUHK-Shenzhen</h3><p>B.Sc. in Data Science and Big Data Technology</p></article>
+<article><time>2025.12 — 2026.06</time><h3>SenseTime Research</h3><p>Research intern · Multimodal low-level vision</p></article>
 </div></section>
 
 <footer class="site-footer"><p>© 2026 Ziyue Lin · <span id="visitor-count">—</span> visits</p><a href="#home">Back to top ↑</a></footer>
